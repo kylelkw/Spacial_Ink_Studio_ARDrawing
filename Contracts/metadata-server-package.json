@@ -1,0 +1,26 @@
+{
+  "name": "graffiti-metadata-server",
+  "version": "1.0.0",
+  "description": "Metadata storage server for AR graffiti drawings",
+  "main": "metadata-server.js",
+  "scripts": {
+    "start": "node metadata-server.js",
+    "dev": "nodemon metadata-server.js"
+  },
+  "keywords": [
+    "metadata",
+    "ar",
+    "graffiti",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

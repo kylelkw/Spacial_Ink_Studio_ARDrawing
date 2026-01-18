@@ -1,0 +1,37 @@
+# Blockchain & Security - NEVER COMMIT THESE!
+Contracts/node_modules/
+Contracts/cache/
+Contracts/artifacts/
+Contracts/metadata/
+Contracts/.env
+*.private.json
+*private-key*
+*PRIVATE_KEY*
+
+# API Keys
+*kairo*key*.txt
+*api*key*.txt
+
+# Metadata storage
+metadata/
+graffiti_metadata/
+
+# Claims storage
+claims/
+
+# Hardhat
+typechain/
+typechain-types/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

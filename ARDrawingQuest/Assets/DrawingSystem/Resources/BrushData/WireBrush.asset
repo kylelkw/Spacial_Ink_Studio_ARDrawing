@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19fdf3b372da44645ac0cde7a02ae975, type: 3}
+  m_Name: WireBrush
+  m_EditorClassIdentifier: 
+  brushName: Wire
+  linePrefab: {fileID: 7690482047013061556, guid: 9aadb519196f6444e977b116c6e36784, type: 3}
+  brushMaterial: {fileID: 2100000, guid: dbf4dffe83e89064785f0093f673dcbe, type: 2}
+  alignment: 0
+  cornerVertices: 5
+  endCapVertices: 5
+  widthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  usesBillboarding: 0
+  appliesSmoothing: 1
+  supportsTransparency: 0
+  alpha: 1
+  enableSimplification: 0
+  simplificationTolerance: 0.005
+  brushTexture: {fileID: 0}
+  usesTexture: 0
+  textureTiling: {x: 1, y: 1}

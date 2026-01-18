@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19fdf3b372da44645ac0cde7a02ae975, type: 3}
+  m_Name: FlatBrush
+  m_EditorClassIdentifier: 
+  brushName: Flat
+  description: Billboard graffiti-style brush that faces the camera
+  linePrefab: {fileID: 8277972042007361018, guid: 231b3557ace9c0c4eb058dcd09c391b4, type: 3}
+  brushMaterial: {fileID: 2100000, guid: 3e00603ffbbcf6845b816b2aa1c08260, type: 2}
+  alignment: 0
+  textureMode: 0
+  cornerVertices: 8
+  endCapVertices: 8
+  widthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  usesBillboarding: 1
+  appliesSmoothing: 0
+  supportsTransparency: 1
+  alpha: 0.7
+  enableSimplification: 0
+  simplificationTolerance: 0.005
+  brushTexture: {fileID: 0}
+  usesTexture: 0
+  textureTiling: {x: 1, y: 1}
