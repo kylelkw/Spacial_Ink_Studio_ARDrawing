@@ -97,3 +97,66 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# ============================================
+# BLOCKCHAIN / SMART CONTRACT FILES
+# ============================================
+
+# Environment variables (CRITICAL - Contains private keys!)
+.env
+.env.local
+.env.*.local
+Contracts/.env
+**/.env
+
+# Node modules
+node_modules/
+Contracts/node_modules/
+
+# Hardhat files
+Contracts/cache/
+Contracts/artifacts/
+cache/
+artifacts/
+
+# Coverage reports
+Contracts/coverage/
+Contracts/coverage.json
+coverage/
+coverage.json
+
+# TypeChain generated files
+Contracts/typechain/
+Contracts/typechain-types/
+typechain/
+typechain-types/
+
+# Hardhat gas reporter output
+gas-report.txt
+
+# Solidity coverage
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Local development blockchain data
+chain-data/
+
+# NPM debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Package manager lock files (optional - comment out if you want to commit these)
+# package-lock.json
+# yarn.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
